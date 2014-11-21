@@ -1,0 +1,34 @@
+*** Krown Shortcodes Changelog ***
+
+8 May 2014 - Version 0.7
+
+	* Repaired the contact form
+
+23 April 2014 - Version 0.6
+
+	* Improved WP 3.9 support
+
+18 March 2014 - Version 0.5
+
+	* Made the plugin ready for WP 3.9
+
+21 January 2014 - Version 0.4
+
+	* Fixed social shortcode (it made an issue in iPhone 4)
+	* Improved theme support with child themes and custom named themes
+
+7 January 2014 - Version 0.3
+
+	* Fixed twitter shortcode (working with the latest version of the oAuth plugin)
+	* Fixed popup size (works better on smaller screens now)
+
+4 December 2013 - Version 0.2
+	
+	* Added a "team member" shortcode
+	* Fixed the columns shortcode
+	* Fixed the tabs shortcode
+	* Fixed other small bugs
+
+29 November 2013 - Version 0.1
+	
+	* First Release

@@ -1,0 +1,9 @@
+*** Krown Portfolio Changelog ***
+
+4 December 2013 - Version 0.2
+	
+	* Fixed the gallery featured image issue
+
+29 November 2013 - Version 0.1
+	
+	* First Release
