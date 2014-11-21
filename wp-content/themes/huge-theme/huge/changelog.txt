@@ -1,0 +1,139 @@
+*** Huge Changelog ***
+
+18 October 2014 - Version 1.5.8
+
+	* Fixed a bug related to mobile responsiveness
+
+28 October 2014 - Version 1.5.7
+
+	* Fixed a bug in modular projects caused by the last update
+
+17 October 2014 - Version 1.5.6
+
+	* Fixed retina support for modular project
+	* Fixed a bug regarding self hosted videos in blog posts
+
+6 October 2014 - Version 1.5.5
+
+	* Fixed a bug related to self hosted videos in blog posts
+
+16 September 2014 - Version 1.5.4
+
+	* Improved retina support
+	* Added "back to top" button
+	* Fixed a bug related scrolling on Android devices
+
+16 August 2014 - Version 1.5.3
+
+	* Fixed various bugs
+
+18 July 2014 - Version 1.5.2
+
+	* Fixed an issue with the single galleries
+
+16 July 2014 - Version 1.5.1
+
+	* Fixed various bugs related to navigation and display
+	* Updated Google Fonts list
+
+8 May 2014 - Version 1.5
+
+	* Added dedicated category pages for portfolio/galleries
+	* Updated the Option Tree plugin
+	* Updated the Krown Shortcodes plugin to 0.7 (fixed contact form error)
+	* Updated the child theme to fix some bugs
+	* Fixed various style related bugs
+
+24 April 2014 - Version 1.4.6
+
+	* Updated the Krown Shortcodes plugin to 0.6 (improved WP 3.9 support)
+
+18 April 2014 - Version 1.4.5
+
+	* Added columns support for WordPress galleries
+	* Fixed other small style bugs regarding
+	* Fixed a bug regarding portfolio filtering with the responsive menu
+	* Updated the Krown Shortcodes plugin to 0.5 (added WP 3.9 support)
+	* Made the theme ready for WP 3.9
+
+20 February 2014 - Version 1.4.4
+
+	* Fixed javascript shortcodes (such as lightbox) not working in single projects
+	* Improved image loading in IE by adding a whole new "imagesLoaded" plugin
+
+21 January 2014 - Version 1.4.3
+
+	* Added a class to gallery navigation when there is only one image (useful for hiding the nav in such cases)
+	* Fixed some image loading bugs in IE
+	* Updated the Shortcodes plugin to 0.4 (fixed the iPhone 4 crash issue and improved theme support with other names or childs)
+
+15 January 2014 - Version 1.4.2
+
+	* Fixed an issue with the single portfolio projects and sidebar behavior
+	* Fixed sidebar behavior on mobile devices (it now closes on each page reload)
+	* Updated Option Tree to version 2.2.0
+
+11 January 2014 - Version 1.4.1
+
+	* Fixed some issues on mobile devices
+
+10 January 2014 - Version 1.4
+
+	* Created a fullscreen slider page template
+	* Created a fullscreen video page template
+	* Added the option to close modal projects by clicking outside their window
+	* Disabled swiping for galleries with just one image
+	* Fixed an error with the History back button
+	* Removed IE8 compatibility (a lot of unsolvable bugs were given by this old wreck)
+
+7 January 2014 - Version 1.3.1
+
+	* Fixed blog categories not showing up in the masonry grid
+	* Fixed vertical projects scroll on mobile devices
+	* Fixed pinterest sharing by adding the featured image to the pin
+	* Fixed map display issues on iPad
+	* Updated the Shortcodes plugin to 0.3 (fixed the twitter shortcode bug)
+
+21 December 2013 - Version 1.3
+
+	* Added the option to set the thumbnail's maximum width
+	* Added the option to disable 3D animations for the sidebar
+	* Fixed vertical project navigation bug
+
+17 December 2013 - Version 1.2
+
+	* Created a fullscreen image page template
+	* Added the option for a fixed sidebar
+	* Added a new thumbnails hover style
+	* Added a new blog style
+	* Added portfolio/gallery pagination
+	* Added the ability to disable parallax effects on the entire site
+	* Disabled map dragging on touch devices
+	* Disabled the "fit images" option for modal projects, as it was highly unstable
+	* Improved styling for WP 3.8
+	* Fixed an issue with the self hosted videos in vertical projects
+	* Fixed various responsiveness issues
+	* Fixed some css style issues
+
+10 December 2013 - Version 1.1.1
+	
+	* Fixed social icons
+	* Fixed modal projects responsive behavior
+
+5 December 2013 - Version 1.1
+	
+	* Changed the sidebar default behavior to "always hide"
+	* Fixed sidebar behavior on touch devices
+	* Changed blog post types design
+	* Added hashtag for categories
+	* Added browser back/forward navigation between projects
+	* Fixed the filter bug when closing projects
+	* Improved 3D degrade for IE (all versions)
+	* Updated the Krown Shortcodes plugin to 0.2 (fixed the columns and tabs & added a "team member" shortcode)
+	* Updated the Krown Portfolio plugin to 0.2 (fixed the gallery featured image issue)
+	* Fixed blog thumbnails size on small screens
+	* Fixed some css style issues
+
+29 November 2013 - Version 1.0
+	
+	* First Release
