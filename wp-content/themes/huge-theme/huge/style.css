@@ -27,14 +27,14 @@
       url('font/fontello.woff?63704692') format('woff'),
       url('font/fontello.ttf?63704692') format('truetype'),
       url('font/fontello.svg?63704692#fontello') format('svg');
-   font-weight: normal;
+   font-weight: 300;
    font-style: normal;
 }
 
 [class^="krown-icon-"]:before, [class*=" krown-icon-"]:before, .post-meta li:before, .me-buttons a:before, .me-buttons span:before, .swiper-nav a:before, .close-btn-special:before, .close-btn-special:after {
    font-family: 'fontello';
    font-style: normal;
-   font-weight: normal;
+   font-weight: 300;
    speak: none;
    display: inline-block;
    text-decoration: inherit;
@@ -454,7 +454,7 @@ html {
 body {
    background: #FFF;
    font: 15px/24px 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-   color: #000;
+   color: #666;
    overflow: hidden;
 }
 
@@ -463,12 +463,12 @@ html, body, #content, #portfolio-holder, .blog-grid, .folio-grid {
 }
 
 a {
-  color: #000;
-  font-weight: 700;
+  color: #666;
+  font-weight: 300;
 } a:hover {
   color: #198699;
 } h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-   color: #000;
+   color: #666;
 } h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
    color: #2293a6;
 }
@@ -495,8 +495,8 @@ p, ul, ol {
 ------------------------------*/
 
 h1, h2, h3, h4, h5, h6, #menu li a, .post-nav a, .krown-tabs .titles li a {
-   color: #000;
-   font-weight: 700;
+   color: #666;
+   font-weight: 300;
 }
 h1 {
    font-size: 52px;
@@ -531,7 +531,7 @@ h6 {
    margin: 28px 0 22px;
 }
 strong {
-   font-weight: 700;
+   font-weight: 300;
 }
 em {
    font-style: italic;
@@ -546,7 +546,7 @@ ul li {
 .large {
    font-size: 22px;
    line-height: 32px;
-   font-weight: 400;
+   font-weight: 300;
    margin: 30px 0;
 }
 .dropcap {
@@ -555,7 +555,7 @@ ul li {
    display: inline-block;
    float: left;
    font-size: 30px;
-   font-weight: 700;
+   font-weight: 300;
    height: 56px;
    line-height: 30px;
    margin: 8px 15px 8px 0;
@@ -685,7 +685,7 @@ q {
 }
 #sidebar .content {
    width: 340px;
-   background: #2293a6;
+   background: #FFFFFF !important;
    height: 140%;
    position: absolute;
    margin-top: -100px;
@@ -699,6 +699,7 @@ q {
    transform-style:           preserve-3d;
    -webkit-backface-visibility: hidden;
    backface-visibility: hidden;
+         border: 1px dotted #aaa
 }
 #sidebar .button {
    width: 40px;
@@ -1001,9 +1002,9 @@ q {
 }
 #menu li a {
    padding-left: 35px;
-   color: #777;
+   color: #222;
    font-size: 16px;
-   font-weight: 700;
+   font-weight: 300;
    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
    filter: alpha(opacity=70);
    opacity: .7;
@@ -1014,10 +1015,11 @@ q {
    top: 0;
    left: 0;
    font-size: 20px;
-   color: #777;
+   color: #999;
    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
    filter: alpha(opacity=70);
    opacity: .7;
+   visibility: hidden;
 }
 #menu .top-menu > li.selected > a, #menu .sub-menu > li.selected > a, #menu .top-menu > li:hover > a, #menu .sub-menu li:hover a, #menu .top-menu li.selected:before, #menu .top-menu li:hover:before {
    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -1033,14 +1035,14 @@ q {
 }
 #menu .sub-menu a {
    font-size: 14px;
-   font-weight: 400;
+   font-weight: 300;
    padding-left: 0;
 }
 #menu .sub-menu li {
    margin: 5px 0 5px 38px;
 }
 #menu .sub-menu li.selected a {
-   font-weight: 700;
+   font-weight: 300;
 }
 #menu li.selected .sub-menu {
    display: block;
@@ -1091,7 +1093,7 @@ q {
 .page-title {
    font-size: 22px;
    line-height: 26px;
-   font-weight: 400;
+   font-weight: 300;
    margin-bottom: 50px;
 }
 
@@ -1303,7 +1305,7 @@ q {
    color: #fff;
    font-size: 15px;
    line-height: 18px;
-   font-weight: 700;
+   font-weight: 300;
    margin: 0;
    text-transform: uppercase;
 }
@@ -1312,7 +1314,7 @@ q {
    font-size: 13px;
    line-height: 15px;
    display: inline-block;
-   font-weight: 400;
+   font-weight: 300;
    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
    filter: alpha(opacity=60);
    opacity: .6;
@@ -1701,7 +1703,7 @@ q {
 .project-vertical h1 {
    font-size: 30px;
    line-height: 32px;
-   font-weight: 600;
+   font-weight: 300;
    text-align: left;
    margin: 30px 0 25px;
 }
@@ -1840,7 +1842,7 @@ q {
 .project-horizontal h1 {
    font-size: 40px;
    line-height: 44px;
-   font-weight: 600;
+   font-weight: 300;
    text-align: center;
    margin-bottom: 20px;
 }
@@ -1950,7 +1952,7 @@ q {
 .project-modal h1 {
    font-size: 30px;
    line-height: 32px;
-   font-weight: 600;
+   font-weight: 300;
    text-align: left;
 }
 
@@ -2010,7 +2012,7 @@ q {
    color: #fff;
    font-size: 16px;
    line-height: 16px;
-   font-weight: 600;
+   font-weight: 300;
    margin: 0;
    height: 40px;
    padding: 13px 60px 0 20px;
@@ -2022,7 +2024,7 @@ q {
    padding: 0 60px 0 20px;
    font-size: 16px;
    line-height: 16px;
-   font-weight: 600;
+   font-weight: 300;
    top: 0;
    left: 0;
    z-index: 9999;
@@ -2333,7 +2335,7 @@ q {
 }
 
 .post-format-quote > p, .blog-grid .post-format-link a {
-   font-weight: 700;
+   font-weight: 300;
 }
 
 .blog-grid .krown-gallery {
@@ -2394,7 +2396,7 @@ q {
 
 .post-title {
    font-size: 40px;
-   font-weight: 700;
+   font-weight: 300;
    line-height: 48px;
    margin-top: -25px !important;
 }
@@ -2423,7 +2425,7 @@ q {
 .post-format-quote {
    margin: 0;
    border: none;
-   color: #000;
+   color: #666;
    padding-top: 30px !important;
    font-size: 40px;
    line-height: 48px;
@@ -2432,7 +2434,7 @@ q {
 .post-format-quote > span {
    font-size: 13px;
    line-height: 13px;
-   font-weight: 400;
+   font-weight: 300;
 }
 .post-format-quote > span:before {
    content: "- ";
@@ -2463,10 +2465,10 @@ q {
 }
 
 .blog-grid .post-title a, .blog-grid blockquote > p, .blog-grid .post-format-link a {
-   font-weight: 600 !important;
+   font-weight: 300 !important;
 }
 .blog-grid-alt .post-title a, .blog-grid-alt blockquote, .blog-grid-alt .post-format-link a {
-   font-weight: 700 !important;
+   font-weight: 300 !important;
 }
 .blog-grid .post-format-quote > span {
    display: block;
@@ -2475,7 +2477,7 @@ q {
 /* Link Format */
 
 .post-format-link {
-   font-weight: 700;
+   font-weight: 300;
    font-size: 40px;
    line-height: 48px;
    font-style: normal;
@@ -2661,7 +2663,7 @@ q {
    font-size: 12px;
    text-transform: uppercase;
    color: #2293a6;
-   font-weight: 700;
+   font-weight: 300;
    padding: 8px 20px 0;
    -webkit-transition: all 200ms;
    transition: all 200ms;
@@ -2793,7 +2795,7 @@ q {
 .blog-grid-alt .post-format-quote > p, .blog-grid-alt .post-format-link a {
    font-size: 40px;
    line-height: 48px;
-   font-weight: 700;
+   font-weight: 300;
    margin-top: 0;
 }
 .blog-grid-alt .post-format-quote > span {
@@ -2818,7 +2820,7 @@ q {
    margin: 34px 0 18px;
 }
 #cancel-comment-reply-link {
-   font-weight: 400;
+   font-weight: 300;
    font-size: 14px;
    float: right;
 }
@@ -2836,13 +2838,13 @@ q {
 .comment-title {
    font-size: 15px;
    line-height: 17px;
-   font-weight: 700;
+   font-weight: 300;
    margin: 0;
 }
 .comment-date {
    font-size: 13px;
    line-height: 15px; 
-   font-weight: 400;
+   font-weight: 300;
    color: #777;
 }
 .comment .avatar {
@@ -2951,7 +2953,7 @@ q {
    color: #FFFFFF;
    font-size: 42px;
    line-height: 46px;
-   font-weight: 600;
+   font-weight: 300;
    display: table-cell;
    vertical-align: middle;
 }
@@ -3028,8 +3030,8 @@ q {
    padding: 15px 35px;
 }
 .krown-accordion h5 {
-   color: #000;
-   font-weight: 400;
+   color: #666;
+   font-weight: 300;
    cursor: pointer;
    padding: 20px 0;
    font-size: 18px;
@@ -3052,8 +3054,8 @@ q {
    fill: #2293a6;
 }
 .krown-accordion .opened h5 {
-   font-weight: 700;
-   color: #000;
+   font-weight: 300;
+   color: #666;
    border-bottom: 1px solid #2293a6;
 }
 .krown-accordion .opened h5 svg {
@@ -3110,7 +3112,7 @@ q {
    border: 1px solid #bcdee4;
    color: #2293a6;
    font-size: 12px;
-   font-weight: 700;
+   font-weight: 300;
    text-transform: uppercase;
    cursor: pointer;
    height: 40px;
@@ -3270,10 +3272,10 @@ q {
    border-bottom-color: #fff !important;
 }
 .krown-tabs .titles li h5 {
-   font-weight: 400;
+   font-weight: 300;
    font-size: 18px;
    line-height: 18px;
-   color: #000;
+   color: #666;
    padding: 15px 35px;
    display: block;
    margin: 0;
@@ -3283,8 +3285,8 @@ q {
    color: #2293a6;
 }
 .krown-tabs .titles li.opened h5 {
-   color: #000 !important;
-   font-weight: 700;
+   color: #666 !important;
+   font-weight: 300;
 }
 .krown-tabs .contents {
    margin-top: -1px;
@@ -3342,7 +3344,7 @@ q {
    color: #2293a6;
 }
 .krown-tabs.vertical .titles li.opened h5:before {
-   color: #000 !important;
+   color: #666 !important;
 }
 .krown-tabs.vertical .contents {
    width: 65%;
@@ -3369,7 +3371,7 @@ q {
 }
 .krown-team h5 {
    padding-left: 8px;
-   font-weight: 400;
+   font-weight: 300;
 }
 .krown-team h5:before {
    content: "|";
@@ -3440,7 +3442,7 @@ q {
    margin: 10px 0 0 55px;
 }
 .krown-testimonial figcaption p {
-   font-weight: 700;
+   font-weight: 300;
    margin: 0 0 -3px 0;
 }
 .krown-testimonial figcaption span {
@@ -4267,7 +4269,7 @@ input, textarea {
    padding-left: 12px;
    font-size: 15px;
    line-height: 22px;
-   color: #000;
+   color: #666;
    width: 100%;
    display: inline-block;
    resize: none;
@@ -4308,7 +4310,7 @@ input[type="submit"] {
    border: 1px solid #bcdee4;
    color: #2293a6;
    font-size: 12px;
-   font-weight: 700;
+   font-weight: 300;
    text-transform: uppercase;
    cursor: pointer;
    height: 40px;
@@ -4491,7 +4493,7 @@ p > .aligncenter:first-child, p > .alignright:first-child, p > .alignleft:first-
    margin-top: 0;
 }
 .widget a {
-   font-weight: 400;
+   font-weight: 300;
    border-bottom: 1px solid transparent;
    -webkit-transition: border 125ms linear;
    transition: border 125ms linear;
@@ -4505,7 +4507,7 @@ p > .aligncenter:first-child, p > .alignright:first-child, p > .alignleft:first-
    height: auto;
 }
 .widget_calendar a {
-   font-weight: 700;
+   font-weight: 300;
 }
 .widget li {
    list-style: none;
@@ -4601,6 +4603,7 @@ p > .aligncenter:first-child, p > .alignright:first-child, p > .alignleft:first-
       width: 100%;
       height: 100px !important;
       position: absolute;
+
    }
    .sidebar-show #sidebar .content {
       -webkit-transform: rotateY(0deg) !important;
@@ -4871,4 +4874,9 @@ p > .aligncenter:first-child, p > .alignright:first-child, p > .alignleft:first-
    #menu .responsive-menu, #sidebar-widgets { 
       display: block !important; 
    } 
-}
+   
+   
+   
+   
+   
+ 
