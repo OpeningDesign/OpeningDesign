@@ -538,6 +538,8 @@ em {
 }
 p {
    margin: 18px 0;
+   font-weight: 100;
+   color: black;
 }
 ul li {
    margin: 5px 0;
@@ -798,7 +800,7 @@ q {
 }
 .no-3deffects .folio-item .bottom, .no-csstransforms .folio-item .bottom, .ie10 .folio-item .bottom {
    background-color: #2293a6 !important;
-   background-color: rgba(34, 147, 166, .9) !important;
+   background-color: rgba(34, 147, 166, .95) !important;
    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
@@ -1040,6 +1042,7 @@ q {
 }
 #menu .sub-menu li {
    margin: 5px 0 5px 38px;
+   padding-left: 14px;
 }
 #menu .sub-menu li.selected a {
    font-weight: 300;
@@ -1572,6 +1575,9 @@ q {
 .swiper-slide {
    position: relative;
    overflow: hidden;
+   border-bottom-style: dotted;
+border-width: 1px;
+border-color: #aaa;
 }
 .swiper-container img {
    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
