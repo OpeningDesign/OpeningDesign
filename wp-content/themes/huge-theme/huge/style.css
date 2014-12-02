@@ -463,8 +463,8 @@ html, body, #content, #portfolio-holder, .blog-grid, .folio-grid {
 }
 
 a {
-  color: #666;
-  font-weight: 300;
+  color: #86ACCD;
+  font-weight: 600;
 } a:hover {
   color: #198699;
 } h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -499,7 +499,7 @@ h1, h2, h3, h4, h5, h6, #menu li a, .post-nav a, .krown-tabs .titles li a {
    font-weight: 300;
 }
 h1 {
-   font-size: 52px;
+   font-size: 90px;
    line-height: 56px;
 }
 * > h1:first-child {
@@ -508,7 +508,7 @@ h1 {
 h2 {
    font-size: 48px;
    line-height: 54px;
-   margin: 64px 0 48px;
+   margin: 48px 0 48px;
 }
 h3 {
    font-size: 21px;
@@ -3029,7 +3029,8 @@ border-color: #aaa;
 ------------------------------*/
 
 .krown-accordion {
-   border-bottom: 1px solid #bcdee4;
+   border-bottom: 1px dotted #bcdee4;
+
 }
 .krown-accordion > section > div {
    display: none;
@@ -3042,7 +3043,7 @@ border-color: #aaa;
    padding: 20px 0;
    font-size: 18px;
    line-height: 18px;
-   border-top: 1px solid #bcdee4;
+   border-top: 1px dotted #bcdee4;
    margin: -1px 0 0 0;
 }
 .krown-accordion h5:hover {
@@ -3139,7 +3140,7 @@ border-color: #aaa;
 ------------------------------*/
 
 .krown-column-row {
-   margin-top: 50px;
+   /* margin-top: 50px; ryan */
 }
 .krown-column-container {
   float: left;
@@ -4884,5 +4885,13 @@ p > .aligncenter:first-child, p > .alignright:first-child, p > .alignleft:first-
    
    
    
+hr {
+border-top-style: none !important;
+border-left-style: none !important;
+border-right-style: none !important;
+border-bottom-style: dotted !important;
+border-width: 1px !important;
+border-color: #aaa !important;
+}
    
  
