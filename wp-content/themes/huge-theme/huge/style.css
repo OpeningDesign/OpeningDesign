@@ -463,12 +463,12 @@ html, body, #content, #portfolio-holder, .blog-grid, .folio-grid {
 }
 
 a {
-  color: #86ACCD;
-  font-weight: 600;
+  color: #72a3cd;
+  font-weight: 400;
 } a:hover {
   color: #198699;
 } h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-   color: #666;
+   color: #72a3cd;
 } h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
    color: #2293a6;
 }
@@ -511,8 +511,8 @@ h2 {
    margin: 48px 0 48px;
 }
 h3 {
-   font-size: 21px;
-   line-height: 24px;
+   font-size: 33px;
+   line-height: 29px;
    margin: 34px 0 28px;
 }
 h4 {
@@ -3369,6 +3369,7 @@ border-color: #aaa;
    margin-bottom: 10px;
    width: 100%;
    max-width: none;
+   margin-top: 17px;
 }
 .krown-team h4, .krown-team h5 {
    font-size: 13px;
@@ -3387,8 +3388,8 @@ border-color: #aaa;
 }
 .krown-team .content {
    border-top: 1px solid #bcdee4;
-   margin-top: 13px;
-   padding-top: 12px;
+   margin-top: 5px;
+   padding-top: 5px;
 }
 .krown-team .content > div {
    float: left;
